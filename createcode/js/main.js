@@ -1,6 +1,6 @@
 const returnMainMenu = document.getElementById("main-menu");
 returnMainMenu.addEventListener("click", ()=>{
-	window.location.href = "../../index.html";
+	window.location.href = "https://mastyx.github.io/QRCode";
 })
 
 const generate = ()=> {
