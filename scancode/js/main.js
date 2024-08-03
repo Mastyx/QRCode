@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	const qrCodeSuccessCallback = (decodedText, decodedResult) => {
 		document.getElementById('result').innerHTML = 
-			`Scanned Result: <a href="${decodedText}">${decodedText}</a>`;
+			`<a href="${decodedText}">${decodedText}</a>`;
 			html5QrCode.stop().then((ignore) => {
 					console.log("QR Code scanning stopped.");
 			}).catch((err) => {

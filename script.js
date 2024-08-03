@@ -6,5 +6,5 @@ btnScan.addEventListener("click", ()=>{
 });
 
 btnGenerate.addEventListener("click", ()=>{
-	console.log('richiama generate.html');
+	window.location.href = './createcode/generate.html';
 });

@@ -11,41 +11,34 @@
 		* {
 			font-family: Kode Mono, sans-serif;
 		}
-		body {
-			display : flex;
-			height : 100vh;
-			flex-direction : column;
-			align-items: center;
-			justify-content: center;
-		}
 		.container {
 			display : flex;
 			flex-direction : column;
 			justify-content: center;
 			align-items: center;
-			width: 50%;
-			height : 50%;
+			height : 100%;
 			border : 1px solid #333;
 			background : #333;
 			border-radius : 10px;
-			gap: 10%;
-			padding : 10%;
+			gap: 30px;
+			padding : 20px;
 
 		}
 		.div-scann {
 			display : flex;
 			flex-direction : column;
-			width : 100%;
+			width : 80%;
+			height : 50%;
 			align-items: center;
 			background : radial-gradient(#FFF 20%, #AAA 80%);
 			padding : 10px;
 			border-radius : 10px;
 			box-shadow : 0 0 10px #000 inset;
-			font-size : 2em;
-			height : 40%;
+			font-size : 1em;
+			height : auto;
 		}
 		.div-scann>i {
-			font-size: 5em;
+			font-size: 30px;
 		}		
 		.div-scann:hover {
 			box-shadow : 0 0 10px #000;
@@ -54,39 +47,36 @@
 		.div-generate {
 			display : flex;
 			flex-direction : column;
-			width: 100%;
+			width: 80%;
+			height : 50%;
 			align-items: center;
 			background :radial-gradient(#FFF 20%, #AAA 80%);
 			padding : 10px;
 			border-radius : 10px;
 			box-shadow : 0 0 10px #000 inset;
-			font-size : 1.5em;
-			height : 40%;
+			font-size : 1em;
+			height : auto;
+
 		}
 		.div-generate>i {
-			font-size: 5em;
+			font-size: 30px;
 		}
 		.div-generate:hover {
 			box-shadow : 0 0 10px #000;
 		}
 
-
-
-
 	</style>
 
 </head>
 <body>
-	<h1>QR Code Manager</h1>
 	<div class="container">
 		<div class="div-scann">
 			<h1>SCAN CODE</h1>
 				<i class='bx bx-scan'></i>
 		</div>
 		<div class="div-generate">
-			<h1>GENERATE</h1>
+			<h1>NEW CODE</h1>
 				<i class='bx bx-qr'></i>
-			<h1>CODE</h1>
 		</div>
 	</div>
 
