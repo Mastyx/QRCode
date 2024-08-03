@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	
 	const btnMainMenu = document.getElementById("btnReturn");
 	btnMainMenu.addEventListener("click", ()=>{
-		window.location.href = '../../index.html';
+		window.location.href = window.location.origin + "/index.html";
 	});
 
 	const html5QrCode = new Html5Qrcode("reader");
