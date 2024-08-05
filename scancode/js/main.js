@@ -2,7 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
 	
 	const btnMainMenu = document.getElementById("btnReturn");
 	btnMainMenu.addEventListener("click", ()=>{
-		window.location.href = window.location.origin + "/QRCode/index.html";
+		// costruiamo un percorso dinamico
+		let baseUrl = window.location.origin;
+		// controlla se siamo su github
+		if (baseUrl.includes("github.io")) {
+			baseUrl += '/QRCode';
+		}
+
+		window.location.href = baseUrl + "/index.html";
 	});
 
 	const html5QrCode = new Html5Qrcode("reader");
