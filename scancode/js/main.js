@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const html5QrCode = new Html5Qrcode("reader");
 
 	const qrCodeSuccessCallback = (decodedText, decodedResult) => {
+		
 		document.getElementById('result').innerHTML = 
 			`<div id="div-risultato">
 				<a href="${decodedText}">${decodedText}</a>
