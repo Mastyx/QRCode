@@ -1,6 +1,10 @@
 const returnMainMenu = document.getElementById("main-menu");
 returnMainMenu.addEventListener("click", ()=>{
-	window.location.href = window.location.origin + "/index.html";
+	let baseUrl = window.location.origin;
+	if (baseUrl.includes("github.io")) {
+		baseUrl += "/QRCode";	
+	}
+	window.location.href = baseUrl + "/index.html";
 })
 
 const generate = ()=> {
