@@ -23,10 +23,8 @@ body {
 		border-radius : 10px;
 		padding : 10px; 
 		background: #CCC;
-		height : auto;
 }
 #div-risultato {
-	background : #333;
 	display : flex;
 	justify-content : center;
 	align-items : center;
