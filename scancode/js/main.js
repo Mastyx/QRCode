@@ -16,7 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	const qrCodeSuccessCallback = (decodedText, decodedResult) => {
 		document.getElementById('result').innerHTML = 
-			`<a href="${decodedText}">${decodedText}</a>`;
+			`<div id="div-risultato">
+				<a href="${decodedText}">${decodedText}</a>
+			</div>
+		`;
 			html5QrCode.stop().then((ignore) => {
 					console.log("QR Code scanning stopped.");
 			}).catch((err) => {
@@ -41,4 +44,3 @@ document.addEventListener("DOMContentLoaded", () => {
 			console.error("Error in getting cameras", err);
 	});
 });
-

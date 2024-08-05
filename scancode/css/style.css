@@ -1,5 +1,8 @@
+	@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
 body {
-		font-family: Arial, sans-serif;
+		font-family: Kode Mono, sans-serif;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -13,11 +16,17 @@ body {
 		border: 1px solid black;
 		height: auto;
 }
+
+
 #result {
-		margin-top: 20px;
 		font-size: 1.2em;
 		border-radius : 10px;
 		padding : 10px; 
 		background: #CCC;
+}
+#btnReturn {
+	font-size : 1.2em;
+	padding : 10px;
+	border-radius: 5px;
 }
 
