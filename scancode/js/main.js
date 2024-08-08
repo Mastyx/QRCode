@@ -16,11 +16,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	const qrCodeSuccessCallback = (decodedText, decodedResult) => {
 		document.getElementById("reader").style.display = 'none';
+
+		// Se decodedText http://' o 'https://', aggiungi 'http://'
+    let displayText = decodedText;
+    if (!/^https?:\/\//i.test(decodedText)) {
+        decodedText = 'http://' + decodedText;
+    }
+		
+		console.log("decededText : " , decodedText)	
 		
 		document.getElementById('result').innerHTML = 
-			`<div id="div-risultato">
-				<a href="${decodedText}">${decodedText}</a>
-			</div>
+			`<a href="${decodedText}"id="div-risultato">${displayText}</a>
 		`;
 			html5QrCode.stop().then((ignore) => {
 					console.log("QR Code scanning stopped.");
