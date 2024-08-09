@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	};
 	const config = { fps: 10, qrbox: 250 };
 
+
 	Html5Qrcode.getCameras().then(cameras => {
 			if (cameras && cameras.length) {
 					html5QrCode.start(

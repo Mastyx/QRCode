@@ -23,7 +23,7 @@
 			align-items: center;
 			height : 100%;
 			border : 1px solid #333;
-			background : #333;
+			background : #CCC;
 			border-radius : 10px;
 			gap: 30px;
 			margin : 20px;
@@ -31,18 +31,18 @@
 		.div-scann {
 			display : flex;
 			flex-direction : column;
-			width : 80%;
-			height : 40%;
+			width : 70%;
+			height : 30%;
 			align-items: center;
 			justify-content: center;
-			background : radial-gradient(#FFF 20%, #AAA 80%);
+			background : #00ff40;
 			padding : 10px;
-			border-radius : 10px;
-			box-shadow : 0 0 10px #000 inset;
+			border-radius : 20%;
+			box-shadow : 0 0 20px #000 inset;
 			font-size : 1em;
 		}
 		.div-scann>i {
-			font-size: 30px;
+			font-size: 100px;
 		}		
 		.div-scann:hover {
 			box-shadow : 0 0 10px #000;
@@ -51,19 +51,19 @@
 		.div-generate {
 			display : flex;
 			flex-direction : column;
-			width: 80%;
-			height : 40%;
+			width: 70%;
+			height : 30%;
 			align-items: center;
 			justify-content: center;
-			background :radial-gradient(#FFF 20%, #AAA 80%);
+			background : #00fff0;
 			padding : 10px;
-			border-radius : 10px;
-			box-shadow : 0 0 10px #000 inset;
+			border-radius : 20%;
+			box-shadow : 0 0 20px #000 inset;
 			font-size : 1em;
 
 		}
 		.div-generate>i {
-			font-size: 30px;
+			font-size: 100px;
 		}
 		.div-generate:hover {
 			box-shadow : 0 0 10px #000;
@@ -74,12 +74,14 @@
 </head>
 <body>
 	<div class="container">
+		
 		<div class="div-scann">
 			<h1>SCAN CODE</h1>
 				<i class='bx bx-scan'></i>
+				<p></p>
 		</div>
 		<div class="div-generate">
-			<h1>NEW CODE</h1>
+			<h1>CREATE A NEW QRCODE</h1>
 				<i class='bx bx-qr'></i>
 		</div>
 	</div>
