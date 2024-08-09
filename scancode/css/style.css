@@ -12,6 +12,7 @@ body {
 }
 
 #reader {
+		margin-top: 10px;
 		width: 300px;
 		height: 225px;
 		border: 1px solid black;
@@ -36,5 +37,15 @@ body {
 	font-size : 1.2em;
 	padding : 10px;
 	border-radius: 5px;
+}
+
+#info {
+	background : #333;
+	color : #CCC;
+	padding : 20px;
+	border-radius : 20px;
+	box-shadow : 0 0 10px #CCC inset;
+	text-align: center;
+	font-size : 1em;
 }
 
