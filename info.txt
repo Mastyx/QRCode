@@ -2,19 +2,28 @@ Questa applicazione di scansione QR non solo offre un'esperienza utente eccezion
 
 1. Nessuna Registrazione Necessaria
 Accesso Immediato: L'app non richiede alcun tipo di registrazione o creazione di account, permettendo agli utenti di utilizzarla immediatamente senza ostacoli. Nessun modulo da compilare, nessuna password da ricordare—basta aprire l'app e iniziare a scansionare.
+
 Rispetto della Privacy: Poiché l'app non richiede dati personali, garantisce che tutte le informazioni dell'utente rimangano completamente private. Nessun dato viene raccolto o memorizzato durante l'uso, proteggendo così la privacy in modo efficace.
+
 
 2. Nessuna Raccolta di Dati Personali
 Sicurezza e Fiducia: L'app non raccoglie né archivia alcun tipo di informazione personale. Questo è fondamentale per gli utenti che sono preoccupati per la loro privacy online. L'utilizzo è completamente anonimo e sicuro, senza alcun tracciamento o condivisione di dati con terze parti.
+
 Massima Trasparenza: L'app è progettata per fare esattamente ciò per cui è stata creata: scansionare codici QR. Gli utenti possono essere sicuri che non ci sia alcun monitoraggio nascosto delle loro attività.
 
+
 3. Gratuita e Senza Pubblicità Fastidiose
-Accesso Senza Costo: Questa applicazione è completamente gratuita, rendendola accessibile a tutti, indipendentemente dalle risorse economiche. Non ci sono costi nascosti o funzioni a pagamento—tutto è disponibile per tutti gli utenti fin dall'inizio.
+Accesso Senza Costo: Questa applicazione è completamente gratuita, rendendola accessibile a tutti, indipendentemente dalle risorse economiche. Non ci sono costi nascosti o funzioni a pagamento, tutto è disponibile per tutti gli utenti fin dall'inizio.
+
 Esperienza Pulita e Semplice: L'app è priva di pubblicità intrusive, che spesso disturbano l'esperienza utente in altre app gratuite. Questo significa che puoi concentrarti sulla scansione dei codici QR senza essere distratto da banner o pop-up.
+
 
 4. Codice Open Source e Licenza MIT
 Codice Aperto e Condiviso: Il codice sorgente dell'applicazione è reso disponibile a tutti, permettendo a chiunque di esaminarlo, modificarlo e adattarlo alle proprie esigenze. Questo approccio open source incoraggia la trasparenza e la collaborazione all'interno della comunità tecnologica.
+
 Licenza MIT: L'app è distribuita sotto la licenza MIT, una delle licenze open source più permissive. Ciò significa che chiunque può utilizzare, copiare, modificare e distribuire il codice, sia per scopi personali che commerciali, a patto di includere l'avviso di copyright originale e la dichiarazione di licenza. Questo rende l'app uno strumento non solo utile, ma anche liberamente accessibile e modificabile.
+
+
 5. Utilizzo in Diverse Situazioni
 Versatilità e Accessibilità: Grazie alla sua semplicità e alla disponibilità del codice, l'app può essere facilmente integrata in vari contesti, dall'educazione all'organizzazione di eventi, dal marketing alla vendita al dettaglio. È accessibile a chiunque, senza barriere di costo o tecniche.
 
