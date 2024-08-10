@@ -7,7 +7,7 @@ const divInfo = document.getElementById("div-info");
 document.addEventListener("DOMContentLoaded", ()=>{
 	const language = navigator.language || navigator.userLanguage;
 	console.log(language);
-	caricaInfoTesto(language);	
+	caricaInfoTesto(language);
 
 	btnScan.addEventListener("click", ()=>{
 		window.location.href = './scancode/scan.html';
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 	info.addEventListener("click",()=>{
 		if (divInfo.style.display === 'none') {
 			divInfo.style.display = 'block';
-			info.style.background = "#FF0033"
+			info.style.background = "#FF0033";
 		} else {
 			divInfo.style.display = 'none';
 			info.style.background = '#333'
@@ -35,11 +35,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 const caricaInfoTesto = (lang)=>{
 	let fileLanguage = '';
-	if (lang.includes('it')) {
-		fileLanguage = 'info.txt'
-	} else {
-		fileLanguage = 'infoEn.txt'
-	}
+	fileLanguage = 'info.txt';
 
 	let textInfo = '';
 
@@ -50,6 +46,7 @@ const caricaInfoTesto = (lang)=>{
 			const areatesto = document.createElement("textarea");
 			areatesto.id = "area-testo-info";
 			areatesto.value = textInfo;
+			areatesto.setAttribute("readonly", true)
 			divInfo.appendChild(areatesto);
 
 		})
