@@ -5,7 +5,9 @@ const divInfo = document.getElementById("div-info");
 
 
 document.addEventListener("DOMContentLoaded", ()=>{
-	caricaInfoTesto();	
+	const language = navigator.language || navigator.userLanguage;
+	console.log(language);
+	caricaInfoTesto(language);	
 
 	btnScan.addEventListener("click", ()=>{
 		window.location.href = './scancode/scan.html';
@@ -31,10 +33,17 @@ document.addEventListener("DOMContentLoaded", ()=>{
 // carica  il file di testo all'interno 
 // della div info
 
-const caricaInfoTesto = ()=>{
+const caricaInfoTesto = (lang)=>{
+	let fileLanguage = '';
+	if (lang.includes('it')) {
+		fileLanguage = 'info.txt'
+	} else {
+		fileLanguage = 'infoEn.txt'
+	}
+
 	let textInfo = '';
 
-	fetch("info.txt")
+	fetch(fileLanguage)
 		.then(response => response.text())
 		.then(data => {
 			textInfo = data;
@@ -46,3 +55,5 @@ const caricaInfoTesto = ()=>{
 		})
 		.catch(error => console.log("Errore caricamento info"));
 }
+
+
