@@ -48,7 +48,6 @@ const caricaInfoTesto = (lang)=>{
 			areatesto.value = textInfo;
 			areatesto.setAttribute("readonly", true)
 			divInfo.appendChild(areatesto);
-
 		})
 		.catch(error => console.log("Errore caricamento info"));
 }
