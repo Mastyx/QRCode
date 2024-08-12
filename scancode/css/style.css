@@ -10,15 +10,14 @@ body {
 		height:	100vh;
 		display : flex; 
 		justify-content : center;
-
-
 }
 
 .container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		height: 80%;
+		justify-content : center;
+		height: 90%;
 		width  : 100%;
 		background-color: #CCC;
 		border-radius : 20px;
